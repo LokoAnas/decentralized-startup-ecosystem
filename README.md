@@ -1,6 +1,4 @@
-# decentralized-startup-ecosystem
-A decentralized platform connecting startups with investors using smart contracts—featuring startup registration, secure funding, and NDA protection on the Hedera Network.
-# Hedera Smart Contract Suite: Startup, Investment, and NDA Management
+# Decentralized Startup Ecosystem
 
 ## 📌 Overview
 This project is a suite of smart contracts deployed on the **Hedera Hashgraph** network, designed to facilitate startup fundraising with integrated NDA (Non-Disclosure Agreement) functionality. It consists of three main contracts:
@@ -30,31 +28,6 @@ This project is a suite of smart contracts deployed on the **Hedera Hashgraph** 
 - **Key Functions**:
   - `signNDA`: Allows investors to sign an NDA with a fundraiser.
   - `getNDAStatus`: Checks the NDA status for a given investor.
-
----
-
-## 📂 Project Structure
-```
-├── contracts/
-│   ├── InvestmentContract.sol
-│   ├── NDAContract.sol
-│   └── StartupContract.sol
-├── scripts/
-│   ├── Deployment/
-│   │   ├── InvestmentContract-Hedera-deployment.js
-│   │   ├── NDAContract-Hedera-deployment.js
-│   │   └── StartupContract-Hedera-deployment.js
-│   └── Function-Calls/
-│       ├── Investment/
-│       │   └── StartupContract-getFundSeekerAddress-function-call.js
-│       ├── NDA/
-│       │   └── NDAContract-getNDAStatus-function-call.js
-│       └── Startup/
-│           ├── StartupContract-getAll-function-call.js
-│           ├── StartupContract-getProject-function-call.js
-│           └── StartupContract-registerStartup-function-call.js
-└── README.md
-```
 
 ---
 
